@@ -24,6 +24,14 @@ users.push(cahlan);
 var lenny = new User('Lenny', 'lenny@gtheLenster.com', 'iLoveJS');
 users.push(lenny);
 
+/* Or you dont have to make a new var:
+users.push(
+	new User('Tyler', 'tylermcginnis33@gmail.com', 'iLoveJS'),
+	new User('Cahlan', 'cahlan@devmounta.in', 'iLoveHashtags'),
+	new User('Lenny', 'lenny@gtheLenster.com', 'iLoveJS')
+);
+*/
+
 console.log('Tyler\'s information is ');
 //Console.log all of Tylers information
 
